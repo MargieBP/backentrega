@@ -12,7 +12,7 @@ const ProyectosSchema = Schema({
     },
     fechaEntrega: {
         type: Date,
-        required: [true, 'Fecha de entrega requerida'],
+        required: new Date(),
     },
     valor: {
         type: Number,
